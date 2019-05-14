@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/distancia"
+            android:title="Parte 1: Distancia" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/sol"
+            android:title="Parte 2: Intensidad de la luz" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/superficie"
+            android:title="Parte 3: Superficie" />
+
+    </group>
+
+
+
+</menu>
